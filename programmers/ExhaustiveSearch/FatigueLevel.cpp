@@ -27,6 +27,8 @@ void bt(int k, vector<vector<int>>& dungeons, int count, int limit,
         }
     }
 
+    // 피로도 부족으로 모든 던전을 다 돌지 못하고 탐색이 종료되었을 경우
+    // 현재 결과를 maxOutput과 비교하여 저장
     maxOutput = max(maxOutput, result);
 }
 
